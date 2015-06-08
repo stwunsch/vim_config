@@ -20,7 +20,7 @@ endif
 
 " If using a dark background within the editing area and syntax highlighting
 " turn on this option as well
-"set background=dark
+" set background=dark
 
 " Uncomment the following to have Vim jump to the last position when
 " reopening a file
@@ -68,3 +68,7 @@ highlight Search ctermbg=lightblue guibg=lightblue
 " Press Space to turn off highlighting and clear any message already
 " displayed.
 nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
+
+" config line numbers
+set number
+highlight LineNr ctermfg=darkgrey guifg=darkgrey
