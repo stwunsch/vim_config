@@ -72,3 +72,6 @@ nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 " config line numbers
 set number
 highlight LineNr ctermfg=darkgrey guifg=darkgrey
+
+" setup pathogen
+execute pathogen#infect('bundle/{}', '~/src/vim_config/bundle/{}')
