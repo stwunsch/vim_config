@@ -5,7 +5,10 @@
 
 " This line should not be removed as it ensures that various options are
 " properly set to work with the Vim-related packages available in Debian.
-runtime! debian.vim
+"runtime! debian.vim
+
+" setup pathogen
+execute pathogen#infect('bundle/{}', '~/src/vim_config/bundle/{}')
 
 " Uncomment the next line to make Vim more Vi-compatible
 " NOTE: debian.vim sets 'nocompatible'.  Setting 'compatible' changes numerous
@@ -46,9 +49,9 @@ set ignorecase		" Do case insensitive matching
 set mouse=a		" Enable mouse usage (all modes)
 
 " Source a global configuration file if available
-if filereadable("/etc/vim/vimrc.local")
-  source /etc/vim/vimrc.local
-endif
+"if filereadable("/etc/vim/vimrc.local")
+"  source /etc/vim/vimrc.local
+"endif
 
 " autohighlight leading/trailing whitespaces
 highlight WhiteSpaceEOL ctermbg=darkgreen guibg=lightgreen
@@ -72,9 +75,6 @@ nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 " config line numbers
 set number
 highlight LineNr ctermfg=darkgrey guifg=darkgrey
-
-" setup pathogen
-execute pathogen#infect('bundle/{}', '~/src/vim_config/bundle/{}')
 
 " remap shortcuts to change between splits
 nnoremap <C-J> <C-W><C-J>
