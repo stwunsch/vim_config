@@ -75,3 +75,9 @@ highlight LineNr ctermfg=darkgrey guifg=darkgrey
 
 " setup pathogen
 execute pathogen#infect('bundle/{}', '~/src/vim_config/bundle/{}')
+
+" remap shortcuts to change between splits
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
