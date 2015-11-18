@@ -24,6 +24,9 @@ Plugin 'scrooloose/nerdtree'
 " vim-airline plugin
 Plugin 'bling/vim-airline'
 
+" Trailing whitespaces plugin
+Plugin 'bronson/vim-trailing-whitespace'
+
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
@@ -108,9 +111,9 @@ set mouse=a		" Enable mouse usage (all modes)
 "endif
 
 " autohighlight leading/trailing whitespaces
-highlight WhiteSpaceEOL ctermbg=darkgreen guibg=lightgreen
-match WhiteSpaceEOL /\s\+$/
-autocmd WinEnter * match WhiteSpaceEOL /\s\+$/
+"highlight WhiteSpaceEOL ctermbg=darkgreen guibg=lightgreen
+"match WhiteSpaceEOL /\s\+$/
+"autocmd WinEnter * match WhiteSpaceEOL /\s\+$/
 
 " set autoindent
 filetype plugin indent on
