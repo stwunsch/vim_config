@@ -143,4 +143,7 @@ nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
 " set list for whitespace and tabs, toggle with 'set list' and 'set list!'
-set listchars=space:-,tab:>>
+set listchars=space:-,tab:>>,eol:<
+
+" F3: Toggle list (display unprintable characters).
+nnoremap <F3> :set list!<CR>
