@@ -1,6 +1,6 @@
 # vim_config
 
-My vim config. The idea is to put the config file somewhere with a repo (mainly for backup purposes) and link this file from ~/.vimrc.
+My vim config. The idea is to put the config file somewhere with a repo (mainly for backup purposes) and link this file from ~/.vimrc by a symbolic link. Use 'ln -s /home/<...>/vim_config/vimrc /home/<user>/.vimrc'.
 
 Pathogen plugin manager is integrated. So don't miss to install Vundle for VIM plugin managing!
 

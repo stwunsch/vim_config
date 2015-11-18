@@ -22,7 +22,7 @@ Plugin 'tpope/vim-sensible'
 Plugin 'scrooloose/nerdtree'
 
 " vim-airline plugin
-"Plugin 'bling/vim-airline'
+Plugin 'bling/vim-airline'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
