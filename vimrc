@@ -27,6 +27,9 @@ Plugin 'bling/vim-airline'
 " Trailing whitespaces plugin
 Plugin 'bronson/vim-trailing-whitespace'
 
+" Indent guides plugin
+"Plugin 'nathanaelkane/vim-indent-guides'
+
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
@@ -80,7 +83,7 @@ endif
 
 " If using a dark background within the editing area and syntax highlighting
 " turn on this option as well
-" set background=dark
+"set background=dark
 
 " Uncomment the following to have Vim jump to the last position when
 " reopening a file
