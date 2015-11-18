@@ -141,3 +141,6 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+
+" set list for whitespace and tabs, toggle with 'set list' and 'set list!'
+set listchars=space:-,tab:>>
