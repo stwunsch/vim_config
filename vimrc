@@ -147,3 +147,9 @@ set listchars=space:-,tab:>>,eol:<
 
 " F3: Toggle list (display unprintable characters).
 nnoremap <F3> :set list!<CR>
+
+" F4: Toggle spell checking (en_us)
+set spell spelllang=en_us
+set spell! " Turn it off on default
+nnoremap <F4> :set spell!<CR>
+
