@@ -27,6 +27,9 @@ Plugin 'bling/vim-airline'
 " Trailing whitespaces plugin
 Plugin 'bronson/vim-trailing-whitespace'
 
+" OpenCL support
+Plugin 'petRUShka/vim-opencl'
+
 " Indent guides plugin
 "Plugin 'nathanaelkane/vim-indent-guides'
 
