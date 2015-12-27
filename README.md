@@ -4,6 +4,7 @@ My vim config. The idea is to put the config file somewhere with a repo (mainly 
 
 Vundle plugin manager is integrated. So don't miss to install Vundle for VIM plugin managing!
 
+
 **Features**
 
 - Set mouse support  
