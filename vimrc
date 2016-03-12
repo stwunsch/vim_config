@@ -161,5 +161,5 @@ nnoremap <F4> :set spell!<CR>
 
 " F5,F6: Toggle ColorColumn option
 highlight ColorColumn ctermbg=darkgrey guibg=darkgrey
-nnoremap <F5> :set cc=0<CR>
-nnoremap <F6> :set cc=80<CR>
+nnoremap <F6> :set cc=0<CR>
+nnoremap <F5> :set cc=80<CR>
