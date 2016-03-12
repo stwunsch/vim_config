@@ -148,6 +148,9 @@ nnoremap <C-H> <C-W><C-H>
 " set list for whitespace and tabs, toggle with 'set list' and 'set list!'
 set listchars=space:-,tab:>>,eol:<
 
+" F2: Toggle line-wrapping
+nnoremap <F2> :set wrap!<CR>
+
 " F3: Toggle list (display unprintable characters).
 nnoremap <F3> :set list!<CR>
 
@@ -156,3 +159,7 @@ set spell spelllang=en_us
 set spell! " Turn it off on default
 nnoremap <F4> :set spell!<CR>
 
+" F5,F6: Toggle ColorColumn option
+highlight ColorColumn ctermbg=darkgrey guibg=darkgrey
+nnoremap <F5> :set cc=0<CR>
+nnoremap <F6> :set cc=80<CR>
